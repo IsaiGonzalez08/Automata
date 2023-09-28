@@ -1,0 +1,102 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1b1a1a;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.automata{
+    border: dotted rgba(255, 255, 255, 0.586);
+    border-radius: 1vh;
+    margin-top: 3%;
+    margin-left: 27.8%;
+    width: 80vh;
+    height: 45vh;
+}
+
+.automata h2{
+    display: flex;
+    justify-content: center;
+    margin-top: -18vh;
+    color: rgba(255, 255, 255, 0.586);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5vh;
+}
+
+.contenido{
+    margin-right: 10vh;
+    margin-top: 8%;
+}
+
+.titulo{
+    margin-left: 2.8vh;
+}
+
+.titulo h2, .titu h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 4vh;
+    margin: 0;
+}
+
+.cadena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.cadena input{
+    width: 33vh;
+    height: 5vh;
+    border: solid white;
+    border-radius: 1vh;
+    margin-right: 1vh;
+}
+
+.cadena button{
+    height: 5.8vh;
+    border: none;
+    border-radius: 1.7vh;
+    background-color: white;
+    padding-left: 1.4vh;
+    padding-right: 1.2vh;
+    padding-top: .5vh;
+    cursor: pointer;
+}
+
+.cadena img{
+    width: 3.3vh;
+}
+
+.contenido1{
+    margin-top: 10%;
+}
+
+.contenido1 p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.contenido p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1.8vh;
+}
+
+.cadena .input{
+    padding-right: 1vh;
+}

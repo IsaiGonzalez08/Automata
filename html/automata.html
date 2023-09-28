@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automata</title>
+    <link rel="stylesheet" href="/css/automata.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenido">
+            <div class="titulo">
+                <h2>Ingrese una cadena</h2>
+            </div>
+            <div class="cadena">
+                <input type="text" id="input-cadena" placeholder="Escribe tú cadena">
+                <button id="btn-cadena"><img src="/img/enviar.png" alt=""></button>
+            </div>
+            <p id="resultado"></p>
+        </div>
+        <div class="contenido1">
+            <div class="titu">
+                <h2>Validación de Autómata</h2>
+            </div>
+                <p>LGA-001-A  --  PEZ-999-Z</p>
+            </div>
+    </div>
+    <div class="automata" id="automata">
+        <svg id="automata-svg" width="600" height="300"></svg>
+        <h2 id="texto">Aquí se dibuja tú autómata</h2>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" src="/js/automata.js"></script>
+</body>
+</html>
